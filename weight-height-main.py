@@ -13,7 +13,7 @@ pdf.set_xy(10.0, 20)
 
 
 # Set the OpenAI API key
-# openai.api_key = st.secrets["OPENAI"]
+openai.api_key = st.secrets["OPENAI"]
 
 st.title("Personalized Diet Plan Generator")
 st.write("""
